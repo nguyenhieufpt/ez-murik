@@ -1,0 +1,183 @@
+.mb-container {
+  width: 650px;
+  height: 900px;
+  margin: 0 auto;
+  -webkit-box-shadow: 1px 1px 2px 1px #bdbdbd;
+  box-shadow: 1px 1px 2px 1px #bdbdbd;
+}
+
+.mb-control {
+  width: 100%;
+  height: 350px;
+  background-image: url(./../img/cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.mb-mainControl {
+  width: 100%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mb-songInfo {
+  padding-top: 35px;
+  height: 100px;
+}
+
+.mb-songName {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mb-artist {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.mb-btnControl {
+  padding: 75px 0 75px 0;
+  text-align: center;
+  height: 225px;
+}
+
+.mb-btnControl ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.mb-btnControl ul li:first-child {
+  padding-right: 60px;
+}
+
+.mb-btnControl ul li:last-child {
+  padding-left: 60px;
+}
+
+.mb-btn {
+  font-size: 30px;
+  color: #ffffff !important;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.mb-btnCicle {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.mb-time {
+  padding: 0 10px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.mb-currentTime {
+  float: left;
+}
+
+.mb-endTime {
+  float: right;
+}
+
+.mb-listSong {
+  line-height: 50px;
+}
+
+.mb-songNo {
+  text-align: center;
+  border-right: 1px solid;
+}
+
+.mb-songContent {
+  display: inline;
+}
+
+.mb-songDuration {
+  text-align: center;
+}
+
+.mb-songDetail {
+  display: inline;
+}
+
+.mb-mediaLeft,
+.mb-mediaRight {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.mb-mediaRight {
+  padding-left: 15px;
+}
+
+.mb-mediaSongName {
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mb-mediaArtist {
+  line-height: 25px;
+}
+
+.mb-playListArea {
+  height: 540px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.mb-playListArea_ul {
+  width: 100%;
+  position: absolute;
+}
+
+.mb-playListArea_ul_li {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.mb-playListArea_ul_li:hover {
+  cursor: pointer;
+}
+
+.mb-songCover {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #bdbdbd;
+}
+
+.mb-songContent {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+
+.mb-songTitle {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mb-songArtist {
+  font-size: 14px;
+  color: #757575;
+}
+
+.mb-repeat {
+  color: #ff4444;
+}
+
+/* Override class progress of bootstrap*/
+.progress {
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin: 0;
+}
