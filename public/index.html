@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>No music no life</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./../img/fav_icon.jpg">
+</head>
+
+<body>
+    <div class="mb-container">
+        <audio class="mb-audio">
+            Your browser does not support HTML5 Audio!
+        </audio>
+        <div class="mb-control">
+            <div class="mb-mainControl">
+                <div class="mb-songInfo">
+                    <div class="mb-songName"></div>
+                    <div class="mb-artist"></div>
+                </div>
+                <!-- /.mb-songInfo-->
+                <div class="mb-btnControl">
+                    <ul>
+                        <li>
+                            <a class="mb-btn" id="volume"><i class="fa fa-volume-down" aria-hidden="true"></i></a>
+                            <progress id="volumeProgress" value="0.5" max="1" class="progress progress-danger" style="display: none;">
+                        </li>
+                        <li>
+                            <a class="mb-btn" id="prev"><i class="fa fa-step-backward" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="mb-btn" id="play"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="mb-btn" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a class="mb-btn" id="repeat"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mb-time">
+                    <div class="mb-currentTime">00:00</div>
+                    <div class="mb-endTime">00:00</div>
+                </div>
+            </div>
+        </div>
+        <progress class="progress progress-danger" id="progress" value="0" max="100"></progress>
+        <div class="mb-playListArea" id="playListArea">
+            <ul class="mb-playListArea_ul"></ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/iscroll.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

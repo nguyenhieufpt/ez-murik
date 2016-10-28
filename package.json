@@ -1,0 +1,16 @@
+{
+  "name": "jukebox",
+  "version": "0.0.1",
+  "description": "Web based music player",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "trungvq",
+  "license": "ISC",
+  "dependencies": {
+    "musicmetadata": "^2.0.4",
+    "node-static": "^0.7.9"
+  }
+}
