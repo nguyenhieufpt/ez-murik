@@ -1,5 +1,0 @@
-{
-	"musicPath": "./public/music",
-	"data": "./public/data.json",
-	"port": 8080
-}
