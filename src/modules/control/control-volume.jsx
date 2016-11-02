@@ -23,7 +23,7 @@ export default (props) => {
 
     return (
         <li>
-			<a className="mb-btn" id="volume" onClick={onClick}>
+			<a className="mb-btn" onClick={onClick}>
 				<i className={className}/>
 			</a>
 			{progress}
